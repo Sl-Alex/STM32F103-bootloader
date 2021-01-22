@@ -51,3 +51,6 @@ endif
 ifeq ($(Platform), MapleMini_2k)
 DEFS += -DMapleMini_2k
 endif
+ifeq ($(Platform), IrmpMini)
+DEFS += -DIrmpMini
+endif

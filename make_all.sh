@@ -28,3 +28,6 @@ make clean
 make -j3 Platform=Blue_noHW
 cp usbdfu.bin ./binaries/boot.Blue_noHW.bin
 make clean
+make -j3 Platform=IrmpMini
+cp usbdfu.bin ./binaries/boot.IrmpMini.bin
+make clean
